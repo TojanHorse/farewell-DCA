@@ -1,6 +1,6 @@
 // List of participants
 const participants = {
-  volunteer: ["", "", ""],
+  volunteer: ["Ayushi Singh", "", ""],
   organizer: ["Bobby Singh", "Rahul Bijalwan", "Sneha Payal"]
 };
 
