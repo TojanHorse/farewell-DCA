@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Download</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Certificate Download</h1>
+        <form id="certificateForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+            
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="">Select your role</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="organizer">Organizer</option>
+            </select>
+            
+            <button type="button" onclick="checkAndDownload()">Download Certificate</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
