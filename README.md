@@ -1,37 +1,31 @@
-Overview
-This farewell website was developed to provide an interactive platform for event participants to access details, notifications, and photos. Built with HTML, CSS, JavaScript, and SASS, the website allows users to generate personalized certificates and download event photos. It supports over 1500 students from multiple programs and helps in distributing certificates efficiently.
+The Farewell DCA Website was created to provide a seamless and interactive experience for attendees of the DCA farewell event. The platform allows users to verify their names, generate personalized certificates, and access event details and photos. The website caters to over 1500 students from various programs, ensuring efficient certificate distribution and easy photo access for volunteers and participants.
 
 Features
-Personalized Certificate Generation: Allows users to verify their names and generate certificates.
-Photo Sharing: Volunteers can upload and share event photos with attendees.
-Event Details: Access to essential event information, including schedules and announcements.
-User-Friendly Interface: Built with Bootstrap for responsive design and easy navigation.
-Certificate Distribution: Integrated system for generating and downloading certificates for participants.
+Personalized Certificate Generation: Users can verify their names and generate a personalized certificate.
+Photo Sharing: Volunteers can upload and share photos from the event, accessible for all attendees.
+Event Information: Easy access to event details, including schedules and important announcements.
+Responsive Design: Built using Bootstrap for a user-friendly, mobile-responsive interface.
+Certificate Distribution: Allows for automatic certificate generation and easy download.
 Tech Stack
 Frontend: HTML, CSS, SASS, Bootstrap
-Backend: JavaScript (with jQuery for dynamic content handling)
-Database: None (Static content management)
-Setup
+Backend: JavaScript (with jQuery for dynamic interaction)
+Other Technologies: jQuery, JavaScript for certificate handling and dynamic content
+Setup Instructions
 Clone the repository:
 
 bash
 Copy code
-git clone <repository-url>
-Install dependencies (if any):
-
-Copy code
-npm install
+git clone https://github.com/TojanHorse/farewell-DCA.git
 Open the index.html file in your browser to view the website.
 
+No additional installation is required as it’s a static website with interactive elements built using JavaScript.
+
 Usage
-Navigate to the website's home page to view the event details and announcements.
-Enter your name to verify and generate your certificate.
-Browse and download photos uploaded by volunteers.
+Visit the homepage to explore event details and announcements.
+Enter your name to verify and generate your personalized certificate.
+Browse through and download event photos uploaded by volunteers.
+Contributing
+Feel free to fork the repository, contribute improvements, or suggest new features via pull requests.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-
-
-
